@@ -2,6 +2,10 @@
 
 A lightweight macOS menu bar app to quickly set your Slack status across multiple workspaces with a single click.
 
+| Main Menu | Status Presets | Workspaces Config |
+|:-:|:-:|:-:|
+| ![Main Menu](Screenshots/main-screen.png) | ![Status Presets](Screenshots/status-presets.png) | ![Workspaces Config](Screenshots/workspaces-config.png) |
+
 ## Features
 
 - **Menu bar app** — lives in your menu bar, no dock icon

@@ -6,12 +6,20 @@
 //
 
 import SwiftUI
+import Foundation
 
 @main
 struct SlackStatusSwitcherApp: App {
+    @State private var viewModel = StatusViewModel()
+
     var body: some Scene {
-        WindowGroup {
-            ContentView()
+        MenuBarExtra("Slack Status", systemImage: "bubble.left.fill") {
+            StatusMenuView(viewModel: viewModel)
+        }
+        .menuBarExtraStyle(.window)
+
+        Settings {
+            SettingsView(viewModel: viewModel)
         }
     }
 }
